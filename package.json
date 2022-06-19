@@ -1,0 +1,31 @@
+{
+  "name": "typescript_creating_declaration_file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izz-hadri/Creating-a-TypeScript-Declaration-File.git"
+  },
+  "author": "Izz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izz-hadri/Creating-a-TypeScript-Declaration-File/issues"
+  },
+  "homepage": "https://github.com/izz-hadri/Creating-a-TypeScript-Declaration-File#readme",
+  "devDependencies": {
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.182",
+    "lodash": "^4.17.21",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
