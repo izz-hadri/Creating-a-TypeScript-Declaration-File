@@ -17,9 +17,9 @@ export function getModuleName(moduleNumber: number) {
 }
 
 export class AuthorInfo {
-    firstName: string = "";
-    lastName: string = "";
-    twitterHandle: string = "";
+    firstName: string;
+    lastName: string;
+    twitterHandle: string;
 
     constructor(firstName: string, lastName: string, twitterHandle: string) {
         this.firstName = firstName;
